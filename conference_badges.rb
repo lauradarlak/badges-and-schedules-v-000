@@ -32,8 +32,3 @@ def printer(attendees)
   batch_badge_creator(attendees).each {|badge| puts "#{badge}"}
   assign_rooms(attendees).eac {|room| puts "#{room}"}
 end
-
-# def printer(attendees)
-#   batch_badge_creator(array).collect {|badge| puts "#{badge}"}
-#   assign_rooms(speakers).collect {|room| puts "#{room}"}
-# end
