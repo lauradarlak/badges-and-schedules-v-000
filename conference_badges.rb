@@ -1,6 +1,7 @@
 # Write your code here.
 require 'enumerator'
 
+# must define attendees variable!!!
 attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 # badge maker
